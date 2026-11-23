@@ -19,8 +19,17 @@ Après publication : `python3 mark_online.py src dst ref url [repub]` si la lign
 Tous les colis vendus ont été envoyés (confirmé par Guillaume le 23/11 21h39). Ne plus lister de colis sans vérifier sur Vinted.
 
 ## Vestiaire Collective
-CONNECTÉ (23/11 22h10) dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire (boutons morts, pop-up Google bloquée) : ne pas l'utiliser pour Vestiaire.
-À faire : regarder les prix (filtre vendus à trouver ; la recherche ?sold=1 ne filtre pas) pour Avirex, Boss, Guess ; proposer ; mettre l'Avirex et sans doute le blazer Boss. Repère 23/11 : blousons Avirex cuir en vente ~150-500 € (prix affichés, frais acheteur compris). Défauts acceptés s'ils sont déclarés. Frais Vestiaire : <75 € → 12 € + 3 € ; ≥75 € → 17 % + 3 %. Dès qu'une plateforme vend, retirer l'annonce de l'autre.
+Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
+Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est comparable (état, matière, modèle). Dès qu'une plateforme vend, retirer l'annonce de l'autre.
+
+### Déposées le 23/11 (en vérification Vestiaire, mail à Guillaume)
+- 213 Avirex A-2 1992 coton, état Correct, 139 € (net 111,20) — product_id 74154550 — aussi sur Vinted 89,24
+- 212 Blazer Hugo Boss velours, Très bon état, IT 52, 79 € (net ~64) — product_id 74154624 — Vinted prévu 24/11
+- 211 Veste Guess velours côtelé noire L, 59 € (net 44) — product_id 74154667 — Vinted prévu 24/11
+
+### À déposer le 24/11 : `_vinted/vestiaire_a_publier.json` (005 Diesel, 188 Schott, 006 Lacoste, 189 Tommy ; photos vc005/vc188/vc006/vc189)
+
+### Écartés (pas rentables après 15 € de frais ou pas de demande) : Palace 169 (vendu ~55 € sur VC < Vinted), Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
 
 ## Astuces techniques
 - Navigateur intégré : si le panneau fait ~449 px, `resize_window` 1024x768 puis recharger ; remettre preset "desktop" AVANT de rendre la main à Guillaume (sinon ses clics ne marchent plus).
