@@ -15,8 +15,8 @@ Excel à jour (dernière version commitée : Inventaire_v20261123d).
 - 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
-## Colis que Guillaume doit encore envoyer
-Sweat Adidas (3,24), survêtement Reebok (22,50), polo Lacoste Djokovic (10,50).
+## Colis
+Tous les colis vendus ont été envoyés (confirmé par Guillaume le 23/11 21h39). Ne plus lister de colis sans vérifier sur Vinted.
 
 ## Vestiaire Collective (en attente)
 Guillaume doit se connecter sur Vestiaire dans le navigateur intégré du HP et dire « c'est bon ». Ensuite : regarder les prix VENDUS Avirex, Boss, Guess ; proposer ; mettre l'Avirex (~129 €) et sans doute le blazer Boss (~69 €, Guillaume pensait 49 € : se baser sur ce qui se vend). Défauts acceptés s'ils sont déclarés. Frais Vestiaire : <75 € → 12 € + 3 € ; ≥75 € → 17 % + 3 %. Dès qu'une plateforme vend, retirer l'annonce de l'autre.
