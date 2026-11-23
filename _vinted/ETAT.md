@@ -28,10 +28,10 @@ Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est compa
 
 ### Déposées le 23/11 (en vérification Vestiaire, mail à Guillaume)
 - 213 Avirex A-2 1992 coton, état Correct, 139 € (net 111,20) — product_id 74154550 — aussi sur Vinted 89,24
-- 212 Blazer Hugo Boss velours, Très bon état, IT 52, 79 € (net ~64) — product_id 74154624 — Vinted prévu 24/11
+- 212 Blazer Hugo Boss velours (ERREUR couleur : déposé en Marron, c'est VERT KAKI FONCÉ ; options Vestiaire = seulement ajouter photos / retirer de la vente), Très bon état, IT 52, 79 € (net ~64) — product_id 74154624 — Vinted prévu 24/11
 - 211 Veste Guess velours côtelé noire L, 59 € (net 44) — product_id 74154667 — Vinted prévu 24/11
 
-### À déposer le 24/11 : `_vinted/vestiaire_a_publier.json` (188 Schott, 006 Lacoste, 189 Tommy ; photos vc188/vc006/vc189 ; 005 Diesel retiré : déjà en ligne)
+### À déposer le 24/11 : `_vinted/vestiaire_a_publier.json` (188 Schott, 006 Lacoste, 189 Tommy, 145 cardigan Adidas West Germany, 075 coupe-vent Adidas Ventex, 203 survêtement Adidas Originals ; 005 Diesel retiré : déjà en ligne)
 
 ### Écartés (pas rentables après 15 € de frais ou pas de demande) : Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
 
