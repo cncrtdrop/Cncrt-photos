@@ -12,7 +12,7 @@ Excel à jour (dernière version commitée : Inventaire_v20261123d).
 
 ## À publier (détails complets dans a_publier.json)
 - 24/11 : 214 Landers 19h24 · 210 John Baner 19h37 · 130bis Nike (republication) 19h58 · 211 Guess 20h14 · 212 Hugo Boss 20h39
-- 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54
+- 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54 · 005 Diesel (republication, supprimer l'ancienne annonce 10503011538 juste avant) 20h17
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
