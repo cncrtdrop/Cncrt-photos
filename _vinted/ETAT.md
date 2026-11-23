@@ -18,11 +18,12 @@ Après publication : `python3 mark_online.py src dst ref url [repub]` si la lign
 ## Colis
 Tous les colis vendus ont été envoyés (confirmé par Guillaume le 23/11 21h39). Ne plus lister de colis sans vérifier sur Vinted.
 
-## Vestiaire Collective (en attente)
-Guillaume doit se connecter sur Vestiaire dans le navigateur intégré du HP et dire « c'est bon ». Ensuite : regarder les prix VENDUS Avirex, Boss, Guess ; proposer ; mettre l'Avirex (~129 €) et sans doute le blazer Boss (~69 €, Guillaume pensait 49 € : se baser sur ce qui se vend). Défauts acceptés s'ils sont déclarés. Frais Vestiaire : <75 € → 12 € + 3 € ; ≥75 € → 17 % + 3 %. Dès qu'une plateforme vend, retirer l'annonce de l'autre.
+## Vestiaire Collective
+CONNECTÉ (23/11 22h10) dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire (boutons morts, pop-up Google bloquée) : ne pas l'utiliser pour Vestiaire.
+À faire : regarder les prix (filtre vendus à trouver ; la recherche ?sold=1 ne filtre pas) pour Avirex, Boss, Guess ; proposer ; mettre l'Avirex et sans doute le blazer Boss. Repère 23/11 : blousons Avirex cuir en vente ~150-500 € (prix affichés, frais acheteur compris). Défauts acceptés s'ils sont déclarés. Frais Vestiaire : <75 € → 12 € + 3 € ; ≥75 € → 17 % + 3 %. Dès qu'une plateforme vend, retirer l'annonce de l'autre.
 
 ## Astuces techniques
-- Navigateur intégré : si le panneau fait ~449 px, `resize_window` 1024x768 puis recharger ; remettre preset "desktop" à la fin.
+- Navigateur intégré : si le panneau fait ~449 px, `resize_window` 1024x768 puis recharger ; remettre preset "desktop" AVANT de rendre la main à Guillaume (sinon ses clics ne marchent plus).
 - Juste après publication, Vinted peut bloquer « Modifier/Supprimer » (vérification automatique, `can_edit=false` dans l'API) : ça peut durer de quelques minutes à quelques jours, ne pas insister.
 - Excel : stager le fichier du HP, éditer avec openpyxl, enregistrer sous un NOUVEAU nom dans /mnt/user-data/outputs/, commit avec expectedMtimeMs du staging.
 - Économiser la limite : pas de captures d'écran inutiles, JS + find refs, un message final court à Guillaume.
