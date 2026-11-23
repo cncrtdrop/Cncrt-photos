@@ -1,0 +1,9 @@
+// À coller dans la page https://www.vinted.fr/items/new (navigateur intégré du HP)
+// Si le panneau est étroit : resize_window 1024x768 puis recharger items/new ; remettre preset "desktop" à la fin.
+window.up=async(dir,n)=>{const dt=new DataTransfer();for(let i=1;i<=n;i++){const k=String(i).padStart(2,'0');const b=await (await fetch(`https://raw.githubusercontent.com/cncrtdrop/Cncrt-photos/main/${dir}/${k}.jpg`)).blob();dt.items.add(new File([b],k+'.jpg',{type:'image/jpeg'}));}const inp=document.querySelector('input[type=file]');inp.files=dt.files;inp.dispatchEvent(new Event('change',{bubbles:true}));await new Promise(r=>setTimeout(r,n*900+2000));return document.querySelectorAll('button[aria-label="Supprimer la photo sélectionnée"]').length};
+// opt(texte, dernier) : coordonnées (frame capture 449 px de large) d'une option de liste déroulante ouverte
+window.opt=(t,last)=>{const K=449/innerWidth;const L=[...document.querySelectorAll('li')].filter(l=>l.offsetParent&&l.innerText.trim().split('\n')[0]===t);const l=last?L[L.length-1]:L[0];if(!l)return null;l.scrollIntoView({block:'center'});const r=l.getBoundingClientRect();const rd=l.querySelector('input,[role=radio],[role=checkbox]');const q=rd?rd.getBoundingClientRect():r;return{mid:[Math.round((r.left+r.width/2)*K),Math.round((r.top+r.height/2)*K)],radio:[Math.round((q.left+q.width/2)*K),Math.round((q.top+q.height/2)*K)],n:L.length}};
+// V() : résumé de tous les champs avant publication
+window.V=()=>[...document.querySelectorAll('input[id]')].filter(i=>i.type!=='file').map(i=>i.id+'='+(i.type==='radio'||i.type==='checkbox'?i.checked:i.value)).join('|');
+// Liste des annonces avec vues/favoris :
+// fetch('/api/v2/wardrobe/165522295/items?page=1&per_page=96&order=relevance',{headers:{accept:'application/json'}}).then(r=>r.json())
