@@ -38,6 +38,7 @@ Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est compa
 - 145 Gilet Adidas West Germany bleu M vintage, polyamide 70 %, Très bon état, 59 € (net 44) — product_id 74171077 (similaires 43-55 €)
 - 075 Coupe-vent Adidas Ventex bleu M vintage (femme, Vestes > Blouson), Bon état, 47 € (net 32) — product_id 74171142 (similaires 33-47 €)
 - 203 Survêtement Adidas Originals noir L (Veste), Très bon état, 69 € (net 54) — product_id 74171192 (vestes seules vendues 54-78 €)
+**Excel PAS ENCORE à jour pour ces 6 dépôts** (HP hors ligne pour l'app Claude le 24/11) : ajouter en Notes « Vestiaire 24/11 : prix, net, id » sur 188, 006, 189, 145, 075, 203 + 6 lignes Journal.
 Rappel : dès qu'un article se vend sur une plateforme, retirer l'annonce de l'autre (tous sont aussi sur Vinted).
 
 ### Écartés (pas rentables après 15 € de frais ou pas de demande) : Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
