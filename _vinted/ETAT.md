@@ -1,6 +1,14 @@
-# État CNCRT DROP — mis à jour le 24/11/2026 13h00 (passe quotidienne)
+# État CNCRT DROP — mis à jour le 24/11/2026 20h45 (publications du soir)
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
+
+## Publiées le 24/11
+- 214 Landers, 19,24 € — items/10956839884 (marque perso « Landers », absente de la liste Vinted)
+- 210 John Baner, 14,24 € — items/10957014380
+- 130bis Nike (republication), 3,24 € — items/10957279594
+- 211 Guess, 24,24 € — items/10957522301
+- 212 Hugo Boss, 34,24 € — items/10957883318 (marque Vinted « Hugo Boss »)
+Excel à jour (dernière version commitée : Inventaire_v20261124b).
 
 ## Publiées le 23/11
 - 150 Benetton (republication) — items/10943578051
@@ -8,7 +16,6 @@
 - 213 Avirex A-2 1992, 89,24 € — items/10944836534 (Guillaume a mis lui-même la photo de dos en 1re)
 - 209 Gotcha aztèque, 25,24 € — items/10944875388
 - 187 Petrol Industries (republication), 5,24 € — items/10944908292
-Excel à jour (dernière version commitée : Inventaire_v20261124a).
 
 ## Passe quotidienne 24/11 (5 actions ; veille 6)
 - Vente : 203 Survêtement Adidas Originals 35,24 € (bordereau envoyé) → colis à envoyer ; **à retirer de Vestiaire (id 74171192)** — signalé à Guillaume.
@@ -18,7 +25,6 @@ Excel à jour (dernière version commitée : Inventaire_v20261124a).
 - Ne pas re-baisser avant 1/12 : 182 ; avant 29-30/11 : 002 004 049 066 075 097 109 096 144.
 
 ## À publier (détails complets dans a_publier.json)
-- 24/11 : 214 Landers 19h24 · 210 John Baner 19h37 · 130bis Nike (republication) 19h58 · 211 Guess 20h14 · 212 Hugo Boss 20h39
 - 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54 · 005 Diesel (republication, supprimer l'ancienne annonce 10503011538 juste avant) 20h17 · 004 Hélas (republication, photos 004r) 20h36 · 160 Reebok (republication, 160r) 20h52
 - 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
@@ -52,6 +58,7 @@ Rappel : dès qu'un article se vend sur une plateforme, retirer l'annonce de l'a
 ### Écartés (pas rentables après 15 € de frais ou pas de demande) : Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
 
 ## Astuces techniques
+- Navigateur intégré : après chaque navigation, refaire une mini-capture (scale 0.1) avant de cliquer par coordonnées (sinon erreur « no screenshot dimensions »).
 - Navigateur intégré : si le panneau fait ~449 px, `resize_window` 1024x768 puis recharger ; remettre preset "desktop" AVANT de rendre la main à Guillaume (sinon ses clics ne marchent plus).
 - Juste après publication, Vinted peut bloquer « Modifier/Supprimer » (vérification automatique, `can_edit=false` dans l'API) : ça peut durer de quelques minutes à quelques jours, ne pas insister.
 - Excel : stager le fichier du HP, éditer avec openpyxl, enregistrer sous un NOUVEAU nom dans /mnt/user-data/outputs/, commit avec expectedMtimeMs du staging.
