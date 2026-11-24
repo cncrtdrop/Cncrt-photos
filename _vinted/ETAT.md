@@ -19,7 +19,7 @@ Après publication : `python3 mark_online.py src dst ref url [repub]` si la lign
 Tous les colis vendus ont été envoyés (confirmé par Guillaume le 23/11 21h39). Ne plus lister de colis sans vérifier sur Vinted.
 
 ## Vestiaire Collective
-Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
+Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
 Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est comparable (état, matière, modèle). Dès qu'une plateforme vend, retirer l'annonce de l'autre.
 
 ### Déjà en vente par Guillaume AVANT le 23/11 (profil https://fr.vestiairecollective.com/profile/36155053/) — TOUJOURS vérifier ce profil avant de déposer
@@ -31,7 +31,14 @@ Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est compa
 - 212 Blazer Hugo Boss velours VERT KAKI FONCÉ, Très bon état, IT 52, 79 € (net 63,20) — product_id 74156436 (redéposé le 23/11 23h30 ; l'ancien 74154624 en « marron » retiré, accord de Guillaume). Une fois en ligne, Vestiaire ne permet que d'ajouter des photos / baisser le prix / retirer. — Vinted prévu 24/11
 - 211 Veste Guess velours côtelé noire L, 59 € (net 44) — product_id 74154667 — Vinted prévu 24/11
 
-### À déposer le 24/11 : `_vinted/vestiaire_a_publier.json` (188 Schott, 006 Lacoste, 189 Tommy, 145 cardigan Adidas West Germany, 075 coupe-vent Adidas Ventex, 203 survêtement Adidas Originals ; 005 Diesel retiré : déjà en ligne)
+### Déposées le 24/11 (en vérification Vestiaire)
+- 188 Doudoune Schott Utah vert L, Très bon état, 75 € (net 60) — product_id 74170892 (similaires vendus 56-69 €)
+- 006 Sweat Lacoste Devanlay vert XS, Très bon état, 51 € (net 36) — product_id 74170948 (similaires 25-38 €)
+- 189 Doudoune Tommy Hilfiger noire M (femme, Manteaux > Doudoune), Bon état, 45 € (net 30) — product_id 74171022 (similaires 37-52 €, reco 44)
+- 145 Gilet Adidas West Germany bleu M vintage, polyamide 70 %, Très bon état, 59 € (net 44) — product_id 74171077 (similaires 43-55 €)
+- 075 Coupe-vent Adidas Ventex bleu M vintage (femme, Vestes > Blouson), Bon état, 47 € (net 32) — product_id 74171142 (similaires 33-47 €)
+- 203 Survêtement Adidas Originals noir L (Veste), Très bon état, 69 € (net 54) — product_id 74171192 (vestes seules vendues 54-78 €)
+Rappel : dès qu'un article se vend sur une plateforme, retirer l'annonce de l'autre (tous sont aussi sur Vinted).
 
 ### Écartés (pas rentables après 15 € de frais ou pas de demande) : Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
 

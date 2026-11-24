@@ -8,6 +8,8 @@
 // 3) await vcRest(dossier, ['01','02',...], description) : photos (fetch GitHub raw -> input file multiple), description, adresse, arrive sur #/price.
 // 4) Prix : find "Prix textbox" -> triple_click, ctrl+a, type "79". Lire "Pour vous" et le prix recommandé.
 // 5) Clic JS bouton "Vérifiez l'annonce", relire le récap, puis bouton "Déposer mon article". product_id dans l'URL de confirmation.
+// Mode femme : valeurs de catégorie différentes (21 Vestes, 611 Blousons, 20 Manteaux, 56 Pulls & Gilets) ; norme taille : 5 = International (1 = FR chez femme).
+// Le select Catégorie ne garde pas toujours l univers : vérifier le radio coché (input[type=radio]:checked) avant.
 // Frais vendeur : < ~75 € : 15 € fixes ; au-delà ~20 %. Prix entiers seulement. Photos min 900x900.
 const W=ms=>new Promise(r=>setTimeout(r,ms));
 window.opts=()=>[...document.querySelectorAll('[role=option],li')].filter(e=>e.offsetParent).map(e=>e.innerText.trim()).filter(Boolean).filter(t=>!/^\d\n/.test(t));
