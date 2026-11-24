@@ -1,4 +1,4 @@
-# État CNCRT DROP — mis à jour le 23/11/2026 21h35
+# État CNCRT DROP — mis à jour le 24/11/2026 13h00 (passe quotidienne)
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
@@ -8,15 +8,23 @@
 - 213 Avirex A-2 1992, 89,24 € — items/10944836534 (Guillaume a mis lui-même la photo de dos en 1re)
 - 209 Gotcha aztèque, 25,24 € — items/10944875388
 - 187 Petrol Industries (republication), 5,24 € — items/10944908292
-Excel à jour (dernière version commitée : Inventaire_v20261123d).
+Excel à jour (dernière version commitée : Inventaire_v20261124a).
+
+## Passe quotidienne 24/11 (5 actions ; veille 6)
+- Vente : 203 Survêtement Adidas Originals 35,24 € (bordereau envoyé) → colis à envoyer ; **à retirer de Vestiaire (id 74171192)** — signalé à Guillaume.
+- Baisse : 182 Maillot FC Porto 15,24 → 13,24.
+- Suppressions (photos sauvegardées dans 004r, 106r, 160r, 196r ; dans a_publier.json) : 004 Hélas, 106 Adidas 14 ans, 160 Reebok, 196 Lot hoodies rap.
+- Prix changés par Guillaume constatés (respecter) : 150 5,24 · 198 19,24 · 143 19,24 · 189 17,24 · 169 49,24 · 083 15,24 (remonté).
+- Ne pas re-baisser avant 1/12 : 182 ; avant 29-30/11 : 002 004 049 066 075 097 109 096 144.
 
 ## À publier (détails complets dans a_publier.json)
 - 24/11 : 214 Landers 19h24 · 210 John Baner 19h37 · 130bis Nike (republication) 19h58 · 211 Guess 20h14 · 212 Hugo Boss 20h39
-- 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54 · 005 Diesel (republication, supprimer l'ancienne annonce 10503011538 juste avant) 20h17
+- 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54 · 005 Diesel (republication, supprimer l'ancienne annonce 10503011538 juste avant) 20h17 · 004 Hélas (republication, photos 004r) 20h36 · 160 Reebok (republication, 160r) 20h52
+- 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
-Tous les colis vendus ont été envoyés (confirmé par Guillaume le 23/11 21h39). Ne plus lister de colis sans vérifier sur Vinted.
+À envoyer : 203 Survêtement Adidas Originals (vendu 35,24 €, bordereau envoyé — vu 24/11). Les autres ventes sont expédiées (vérifié 24/11).
 
 ## Vestiaire Collective
 Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
@@ -38,7 +46,7 @@ Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est compa
 - 145 Gilet Adidas West Germany bleu M vintage, polyamide 70 %, Très bon état, 59 € (net 44) — product_id 74171077 (similaires 43-55 €)
 - 075 Coupe-vent Adidas Ventex bleu M vintage (femme, Vestes > Blouson), Bon état, 47 € (net 32) — product_id 74171142 (similaires 33-47 €)
 - 203 Survêtement Adidas Originals noir L (Veste), Très bon état, 69 € (net 54) — product_id 74171192 (vestes seules vendues 54-78 €)
-**Excel PAS ENCORE à jour pour ces 6 dépôts** (HP hors ligne pour l'app Claude le 24/11) : ajouter en Notes « Vestiaire 24/11 : prix, net, id » sur 188, 006, 189, 145, 075, 203 + 6 lignes Journal.
+Excel à jour pour ces 6 dépôts (24/11). **203 VENDU sur Vinted le 23/11 → retirer de Vestiaire (74171192).**
 Rappel : dès qu'un article se vend sur une plateforme, retirer l'annonce de l'autre (tous sont aussi sur Vinted).
 
 ### Écartés (pas rentables après 15 € de frais ou pas de demande) : Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
