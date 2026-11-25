@@ -1,4 +1,4 @@
-# État CNCRT DROP — mis à jour le 24/11/2026 20h45 (publications du soir)
+# État CNCRT DROP — mis à jour le 25/11/2026 (passe quotidienne)
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
@@ -17,6 +17,15 @@ Excel à jour (dernière version commitée : Inventaire_v20261124b).
 - 209 Gotcha aztèque, 25,24 € — items/10944875388
 - 187 Petrol Industries (republication), 5,24 € — items/10944908292
 
+## Passe quotidienne 25/11 (4 actions ; veille 5)
+- Ventes : aucune nouvelle. 203 toujours « Bordereau envoyé » → colis à envoyer + retirer de Vestiaire (74171192).
+- Baisses : aucune éligible (≥5 favoris mais déjà au plancher 5,24 ou moins : 027 118 147 186 ; baissés <7 j ; 169 prix Guillaume ; 0 favori >14 j : aucun hors 109 baissé le 22/11). Seulement 4 actions car rien d'autre ne remplissait les règles.
+- Suppressions via API (POST /api/v2/items/<id>/delete avec header x-csrf-token tiré de CSRF_TOKEN dans le HTML ; photos récupérées des photos.zip du HP, 2e photo mise en 1re) : 037 Lacoste colorblock, 047 DC Shoes, 109 Polo Adidas vert, 131 Aidek Mabrouk → dossiers 037r 047r 109r 131r, ajoutés à a_publier.json (26/11 et 27/11).
+- Aucun prix changé par Guillaume constaté (Vinted = Excel).
+- À noter : 214 Landers 245 vues / 78 favoris en 1 jour à 19,24 € (signalé à Guillaume).
+- Ne pas re-baisser avant 28/11 : 082 083 140 145 ; avant 29/11 : 002 049 075 097 109(supprimé) ; avant 30/11 : 096 144 ; avant 1/12 : 182.
+Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
+
 ## Passe quotidienne 24/11 (5 actions ; veille 6)
 - Vente : 203 Survêtement Adidas Originals 35,24 € (bordereau envoyé) → colis à envoyer ; **à retirer de Vestiaire (id 74171192)** — signalé à Guillaume.
 - Baisse : 182 Maillot FC Porto 15,24 → 13,24.
@@ -26,11 +35,12 @@ Excel à jour (dernière version commitée : Inventaire_v20261124b).
 
 ## À publier (détails complets dans a_publier.json)
 - 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54 · 005 Diesel (republication, supprimer l'ancienne annonce 10503011538 juste avant) 20h17 · 004 Hélas (republication, photos 004r) 20h36 · 160 Reebok (republication, 160r) 20h52
-- 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49
+- 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49 · 037 Polo Lacoste (037r) 20h14 · 047 Polo DC Shoes (047r) 20h41
+- 27/11 : 109 Polo Adidas vert (109r) 19h36 · 131 T-shirt Aidek Mabrouk (131r) 20h07
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
-À envoyer : 203 Survêtement Adidas Originals (vendu 35,24 €, bordereau envoyé — vu 24/11). Les autres ventes sont expédiées (vérifié 24/11).
+À envoyer : 203 Survêtement Adidas Originals (vendu 35,24 €, bordereau envoyé — vu 24/11). Les autres ventes sont expédiées (vérifié 25/11).
 
 ## Vestiaire Collective
 Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
