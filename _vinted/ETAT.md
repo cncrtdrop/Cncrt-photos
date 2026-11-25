@@ -6,6 +6,7 @@
 - 215 Eden Park, 7,24 € — items/10970013654
 - 216 La Maison du Jersey, 14,24 € — items/10970310276 (taille FR 48, couleurs Bleu + Beige car pas de « Camel » sur Vinted, longueur 80 dans la case)
 - 005 Diesel J-Rocket (republication), 79,24 € — items/10970605329 (ancienne 10503011538 supprimée à 20h15 ; catégorie Hommes > Vestes > Blousons aviateur, Vinted n'a pas de « Bombers »)
+- 004 Hélas (republication), 21,24 € — items/10970892067
 
 ## Publiées le 24/11
 - 214 Landers, 19,24 € — items/10956839884 (marque perso « Landers », absente de la liste Vinted)
