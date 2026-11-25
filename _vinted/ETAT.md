@@ -4,6 +4,7 @@
 
 ## Publiées le 25/11 (en cours)
 - 215 Eden Park, 7,24 € — items/10970013654
+- 216 La Maison du Jersey, 14,24 € — items/10970310276 (taille FR 48, couleurs Bleu + Beige car pas de « Camel » sur Vinted, longueur 80 dans la case)
 
 ## Publiées le 24/11
 - 214 Landers, 19,24 € — items/10956839884 (marque perso « Landers », absente de la liste Vinted)
