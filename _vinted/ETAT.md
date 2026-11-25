@@ -1,12 +1,14 @@
-# État CNCRT DROP — mis à jour le 25/11/2026 (passe quotidienne)
+# État CNCRT DROP — mis à jour le 25/11/2026 au soir (publications)
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
-## Publiées le 25/11 (en cours)
+## Publiées le 25/11
 - 215 Eden Park, 7,24 € — items/10970013654
 - 216 La Maison du Jersey, 14,24 € — items/10970310276 (taille FR 48, couleurs Bleu + Beige car pas de « Camel » sur Vinted, longueur 80 dans la case)
 - 005 Diesel J-Rocket (republication), 79,24 € — items/10970605329 (ancienne 10503011538 supprimée à 20h15 ; catégorie Hommes > Vestes > Blousons aviateur, Vinted n'a pas de « Bombers »)
 - 004 Hélas (republication), 21,24 € — items/10970892067
+- 160 Reebok (republication), 19,24 € — items/10971112528
+Excel à jour (dernière version commitée : Inventaire_v20261125b ; lignes 215 et 216 créées, 005/004/160 : nouveau lien, Statut En ligne, Republications +1, vues/favoris remis à 0 ; Journal complété). Annonce Vestiaire du Diesel non touchée.
 
 ## Publiées le 24/11
 - 214 Landers, 19,24 € — items/10956839884 (marque perso « Landers », absente de la liste Vinted)
@@ -40,7 +42,6 @@ Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
 - Ne pas re-baisser avant 1/12 : 182 ; avant 29-30/11 : 002 004 049 066 075 097 109 096 144.
 
 ## À publier (détails complets dans a_publier.json)
-- 25/11 : 215 Eden Park 19h31 · 216 Maison du Jersey 19h54 · 005 Diesel (republication, supprimer l'ancienne annonce 10503011538 juste avant) 20h17 · 004 Hélas (republication, photos 004r) 20h36 · 160 Reebok (republication, 160r) 20h52
 - 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49 · 037 Polo Lacoste (037r) 20h14 · 047 Polo DC Shoes (047r) 20h41
 - 27/11 : 109 Polo Adidas vert (109r) 19h36 · 131 T-shirt Aidek Mabrouk (131r) 20h07
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
