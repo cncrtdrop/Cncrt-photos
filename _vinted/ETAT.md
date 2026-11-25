@@ -2,6 +2,9 @@
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
+## Publiées le 25/11 (en cours)
+- 215 Eden Park, 7,24 € — items/10970013654
+
 ## Publiées le 24/11
 - 214 Landers, 19,24 € — items/10956839884 (marque perso « Landers », absente de la liste Vinted)
 - 210 John Baner, 14,24 € — items/10957014380
