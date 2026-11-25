@@ -5,6 +5,7 @@
 ## Publiées le 25/11 (en cours)
 - 215 Eden Park, 7,24 € — items/10970013654
 - 216 La Maison du Jersey, 14,24 € — items/10970310276 (taille FR 48, couleurs Bleu + Beige car pas de « Camel » sur Vinted, longueur 80 dans la case)
+- 005 Diesel J-Rocket (republication), 79,24 € — items/10970605329 (ancienne 10503011538 supprimée à 20h15 ; catégorie Hommes > Vestes > Blousons aviateur, Vinted n'a pas de « Bombers »)
 
 ## Publiées le 24/11
 - 214 Landers, 19,24 € — items/10956839884 (marque perso « Landers », absente de la liste Vinted)
@@ -72,6 +73,8 @@ Rappel : dès qu'un article se vend sur une plateforme, retirer l'annonce de l'a
 ### Écartés (pas rentables après 15 € de frais ou pas de demande) : Stüssy x Nike 140, Kulte, Magenta, Lancel 205, Diesel 022.
 
 ## Astuces techniques
+- **Colis : Vinted repasse en « Grand » APRÈS la saisie du prix** (vu 25/11 sur le Diesel) → recliquer Moyen/Petit après le prix et revérifier juste avant « Ajouter ».
+- Formulaire faisable presque sans captures : focus() du champ en JS puis `type` ; listes : clic JS sur le <li> ; seule la liste Couleur exige un vrai clic à gauche de la page pour se fermer (sinon « Le champ Couleur doit être renseigné »). Marque : champ `#brand-search-input` ; catégorie : `#catalog-search-input`.
 - Navigateur intégré : après chaque navigation, refaire une mini-capture (scale 0.1) avant de cliquer par coordonnées (sinon erreur « no screenshot dimensions »).
 - Navigateur intégré : si le panneau fait ~449 px, `resize_window` 1024x768 puis recharger ; remettre preset "desktop" AVANT de rendre la main à Guillaume (sinon ses clics ne marchent plus).
 - Juste après publication, Vinted peut bloquer « Modifier/Supprimer » (vérification automatique, `can_edit=false` dans l'API) : ça peut durer de quelques minutes à quelques jours, ne pas insister.
