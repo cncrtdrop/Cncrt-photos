@@ -2,11 +2,11 @@
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
-## Passe quotidienne 26/11 (1 action ; veille 4)
+## Passe quotidienne 26/11 (5 actions ; veille 4)
 - Ventes : **214 Landers 19,24 €** et **215 Eden Park 7,24 €** (bordereaux envoyés → colis à envoyer). 203 expédié.
 - 139 Veste Wrüng (vente du 18/11 remboursée) republiée par Guillaume le 26/11 ~0h13 à 19,24 € → items/10973193461 (Excel mis à jour).
 - Baisse : 190 Petrol Industries 7,24 → 6,24 (0 favori, 15 j).
-- **Suppressions EN ATTENTE du « ok » de Guillaume** (la suppression via API a été bloquée par le garde-fou de la session automatique) : 185 Casquette New Era (10 vues, 33 j, items/10507734613) · 080 Coupe-vent Nike (21 vues, 39 j, items/10431554228) · 095 Hoodie Kaotiko (21 vues, 45 j, items/10350409390) · 183 Maillot Lakers (12 vues, 33 j, items/10507923355). Photos déjà sauvegardées dans 185r 080r 095r 183r (2e photo en 1re). NE PAS les ajouter à a_publier.json tant qu'elles ne sont pas supprimées.
+- Suppressions (bloquées en automatique, faites après le « ok » de Guillaume) : 185 Casquette New Era (10 vues, 33 j, items/10507734613) · 080 Coupe-vent Nike (21 vues, 39 j, items/10431554228) · 095 Hoodie Kaotiko (21 vues, 45 j, items/10350409390) · 183 Maillot Lakers (12 vues, 33 j, items/10507923355). Photos déjà sauvegardées dans 185r 080r 095r 183r (2e photo en 1re). Supprimées via API à 13h, ajoutées à a_publier.json (27/11 et 28/11).
 - Autres candidats suppression (<30 vues >21 j) : 071 081 088 027 147 144.
 - Alerte : 173 (items/10460317145) et 174 (items/10665164580) marqués « vendu » par l'API Vinted mais absents de Mes commandes ; Excel toujours « En ligne » → à vérifier avec Guillaume.
 - Aucune baisse ≥5 favoris éligible (toutes baissées <7 j ou au plancher). Aucun prix changé par Guillaume (Vinted = Excel).
@@ -54,7 +54,8 @@ Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
 
 ## À publier (détails complets dans a_publier.json)
 - 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49 · 037 Polo Lacoste (037r) 20h14 · 047 Polo DC Shoes (047r) 20h41
-- 27/11 : 109 Polo Adidas vert (109r) 19h36 · 131 T-shirt Aidek Mabrouk (131r) 20h07
+- 27/11 : 080 Coupe-vent Nike (080r) 19h22 · 109 Polo Adidas vert (109r) 19h36 · 131 T-shirt Aidek Mabrouk (131r) 20h07 · 095 Hoodie Kaotiko (095r) 20h33
+- 28/11 : 185 Casquette New Era (185r) 19h41 · 183 Maillot Lakers (183r, 5,24) 20h18
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
