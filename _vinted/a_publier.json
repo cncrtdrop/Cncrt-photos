@@ -89,8 +89,8 @@
   "prix": 12.24,
   "colis": "Petit",
   "republication": true,
-  "publier_le": "2026-11-27 20h52",
-  "notes": "Supprimée le 25/11 (16 vues, 1 favori en 85 j ; ancienne annonce 9858528756). Achat 7 €. | Non publiée le 26/11 (pas de tâche du soir) → reprogrammée 2026-11-27 20h52."
+  "publier_le": "2026-11-29 20h05",
+  "notes": "Supprimée le 25/11 (16 vues, 1 favori en 85 j ; ancienne annonce 9858528756). Achat 7 €. | Non publiée le 26/11 (pas de tâche du soir) → reprogrammée 2026-11-27 20h52. | Décalée au 29/11 20h05 pour laisser la place au nouvel article 217 le 27/11."
  },
  {
   "ref": "185",
@@ -254,5 +254,24 @@
   "republication": true,
   "publier_le": "2026-11-29 20h44",
   "notes": "Supprimée le 24/11 (17 vues, 0 favori en 24 j ; ancienne annonce 10610933257). Dossier HP 017_… mais réf. Excel 106. Prix 7,24 < achat+2 (achat 8) : prix d'origine gardé, à confirmer par Guillaume. | Non publiée le 26/11 (pas de tâche du soir) → reprogrammée 2026-11-29 20h44. Prix passé à 10,24 (règle achat 8 + 2)."
+ },
+ {
+  "ref": "217",
+  "dossier_photos": "217",
+  "n": 10,
+  "titre": "Hoodie Adidas Originals Blue Version noir L",
+  "description": "Hoodie Adidas Blue Version, la ligne premium d'Adidas Originals (automne-hiver 2022). Coton très épais et lourd, trèfle brodé ton sur ton.",
+  "marque": "adidas",
+  "taille": "L",
+  "etat": "Très bon état",
+  "couleur": "Noir",
+  "couleur2": null,
+  "categorie": "Hommes > Sweats et pulls > Sweats à capuche (catalog 267)",
+  "matiere": "Coton",
+  "prix": 39.24,
+  "colis": "Moyen",
+  "republication": false,
+  "publier_le": "2026-11-27 20h52",
+  "notes": "Nouvel article envoyé par Guillaume le 27/11 (17h40). Réf adidas HM5115, Blue Version FW-2022, 100 % coton. Nouvelle ligne Excel 217 à créer (prix d'achat inconnu : « payé assez cher », à compléter par Guillaume)."
  }
 ]
