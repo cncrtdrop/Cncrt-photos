@@ -9,6 +9,13 @@
 - Si une exécution se retrouve sans les outils du HP : ne pas demander à Guillaume de manipuler ; le signaler en une ligne et laisser les articles en attente pour le passage suivant.
 - Sélection des articles à publier : comparer la DATE de « publier_le » (format « AAAA-MM-JJ HHhMM »), pas la chaîne entière.
 
+## Publiées le 27/11 (tâche du soir, Excel + Journal à jour)
+- 080 Coupe-vent Nike 19,24 — items/10993890485
+- 109 Polo Adidas 10,24 — items/10994035949
+- 131 Aidek Mabrouk 9,24 — items/10994179028
+- 095 Kaotiko 19,24 — items/10994311607
+- 217 Hoodie Adidas Blue Version 39,24 — items/10994444514
+
 ## Passe quotidienne 27/11 (1 action faite + 4 suppressions proposées ; veille 5)
 - Vente : **213 Avirex A-2 80,30 €** (offre acceptée) — déjà expédié. **À retirer de Vestiaire (74154550)**, comme 203 (74171192).
 - 214 Landers et 215 Eden Park : expédiés.
@@ -72,7 +79,6 @@ Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
 
 ## À publier (détails complets dans a_publier.json)
 **Tâche programmée « Vinted publications du soir » créée le 27/11 (tous les soirs 19h19, publie ce qui est dû dans a_publier.json, 5 max).** Avant, aucune tâche du soir n'était active → rien publié le 26/11.
-- 27/11 : 080 19h22 · 109 19h36 · 131 20h07 · 095 20h33 · **217 Hoodie Adidas Blue Version (nouveau, 39,24) 20h52**
 - 28/11 : 185 19h41 · 027 19h58 · 183 20h18 · 147 20h37 · 047 20h53
 - 29/11 : 081 19h33 · 196 19h51 · 037 20h05 · 071 20h21 · 106 20h44 (106 à 10,24 = achat 8 + 2)
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
