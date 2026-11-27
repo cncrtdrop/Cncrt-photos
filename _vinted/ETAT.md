@@ -88,6 +88,7 @@ Rien à envoyer (27/11 : 213, 214, 215 expédiés). 203 et 213 retirés de Vesti
 
 ## Vestiaire Collective
 Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
+Règle (27/11) : tout nouvel article ≥ ~35 € est étudié pour Vestiaire au moment de sa préparation (prix vendus comparables, rentable après 15 € de frais) et proposé à Guillaume. 217 Hoodie Adidas Blue Version : à étudier/déposer (Chrome du HP ne répondait pas le 27/11 au soir).
 Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est comparable (état, matière, modèle). Dès qu'une plateforme vend, retirer l'annonce de l'autre.
 
 ### Déjà en vente par Guillaume AVANT le 23/11 (profil https://fr.vestiairecollective.com/profile/36155053/) — TOUJOURS vérifier ce profil avant de déposer
