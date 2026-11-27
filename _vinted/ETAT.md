@@ -17,7 +17,7 @@
 - 217 Hoodie Adidas Blue Version 39,24 — items/10994444514
 
 ## Passe quotidienne 27/11 (1 action faite + 4 suppressions proposées ; veille 5)
-- Vente : **213 Avirex A-2 80,30 €** (offre acceptée) — déjà expédié. **À retirer de Vestiaire (74154550)**, comme 203 (74171192).
+- Vente : **213 Avirex A-2 80,30 €** (offre acceptée) — déjà expédié. Retiré de Vestiaire (vérifié), comme 203.
 - 214 Landers et 215 Eden Park : expédiés.
 - Baisse : 199 Parka Petrol Industries 19,24 → 17,24 (6 favoris, 11 j). Ne pas re-baisser avant 4/12.
 - Aucune autre baisse éligible (082 083 140 145 rebaissables dès 28/11 ; 002 049 075 097 dès 29/11 ; 096 144 dès 30/11 ; 182 dès 1/12 ; 027 118 147 186 au plancher ; 169 prix Guillaume).
@@ -84,7 +84,7 @@ Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
-Rien à envoyer (27/11 : 213, 214, 215 expédiés). **Retirer de Vestiaire : 203 (74171192) et 213 Avirex (74154550).**
+Rien à envoyer (27/11 : 213, 214, 215 expédiés). 203 et 213 retirés de Vestiaire par Guillaume (vérifié 27/11 22h35 : 10 articles en vente, ni Avirex ni survêtement Adidas).
 
 ## Vestiaire Collective
 Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
