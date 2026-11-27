@@ -7,7 +7,7 @@
 - 214 Landers et 215 Eden Park : expédiés.
 - Baisse : 199 Parka Petrol Industries 19,24 → 17,24 (6 favoris, 11 j). Ne pas re-baisser avant 4/12.
 - Aucune autre baisse éligible (082 083 140 145 rebaissables dès 28/11 ; 002 049 075 097 dès 29/11 ; 096 144 dès 30/11 ; 182 dès 1/12 ; 027 118 147 186 au plancher ; 169 prix Guillaume).
-- Suppressions PROPOSÉES (pas faites, en attente du ok de Guillaume) : 027 T-shirt Adidas (13 vues, 89 j, items/9832920040) · 147 Russell Athletic (14 vues, 79 j, items/9944253202) · 081 Hoodie Wrüng (14 vues, 40 j, items/10428503133) · 071 Veste Cleptomanicx (16 vues, 40 j, items/10423204742). Photos sauvegardées dans 027r 147r 081r 071r (2e photo en 1re). Après le ok : supprimer via API puis ajouter à a_publier.json (soirs à partir du 29/11). Candidat suivant : 088.
+- Suppressions faites le 27/11 via API après le « go » de Guillaume : 027 T-shirt Adidas (13 vues, 89 j, items/9832920040) · 147 Russell Athletic (14 vues, 79 j, items/9944253202) · 081 Hoodie Wrüng (14 vues, 40 j, items/10428503133) · 071 Veste Cleptomanicx (16 vues, 40 j, items/10423204742). Photos sauvegardées dans 027r 147r 081r 071r (2e photo en 1re). Ajoutées à a_publier.json : 027 et 147 le 28/11 (19h58, 20h37), 081 et 071 le 29/11 (19h33, 20h21). Candidat suivant : 088.
 - **Republications du 26/11 (196 106 037 047) NON visibles sur le profil** → la publication du soir du 26/11 n'a apparemment pas eu lieu ; à reprogrammer (elles restent dans a_publier.json).
 - 173/174 toujours marqués vendus par l'API sans commande : alerte maintenue.
 - Prix Vinted = Excel partout (083 à 15,24 = prix Guillaume).
@@ -66,7 +66,9 @@ Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
 ## À publier (détails complets dans a_publier.json)
 - 26/11 : 196 Lot 3 hoodies rap (196r) 19h28 · 106 Veste Adidas 14 ans (106r, prix 7,24 < achat+2 : à confirmer) 19h49 · 037 Polo Lacoste (037r) 20h14 · 047 Polo DC Shoes (047r) 20h41
 - 27/11 : 080 Coupe-vent Nike (080r) 19h22 · 109 Polo Adidas vert (109r) 19h36 · 131 T-shirt Aidek Mabrouk (131r) 20h07 · 095 Hoodie Kaotiko (095r) 20h33
-- 28/11 : 185 Casquette New Era (185r) 19h41 · 183 Maillot Lakers (183r, 5,24) 20h18
+- 28/11 : 185 Casquette New Era (185r) 19h41 · 027 T-shirt Adidas (027r, 5,24) 19h58 · 183 Maillot Lakers (183r, 5,24) 20h18 · 147 Russell Athletic (147r) 20h37
+- 29/11 : 081 Hoodie Wrüng (081r) 19h33 · 071 Veste Cleptomanicx (071r) 20h21
+- Non publiées le 26/11, à recaser : 196 106 037 047
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
