@@ -2,6 +2,13 @@
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
+## RÈGLES PERMANENTES (à respecter dans toute conversation et toute tâche)
+- Le HP (LAPTOP-NGFOE96P) reste allumé, branché, capot fermé : le réglage « capot fermé = ne rien faire » est DÉJÀ FAIT et marche. Ne jamais le redemander à Guillaume.
+- Guillaume n'intervient jamais : il ne lance pas de tâche, ne clique pas, ne colle pas de message. Il reçoit seulement des notifications/rapports.
+- Toute tâche planifiée Vinted doit être liée au HP (« Exiger cet ordinateur »). Une tâche créée sans ça tourne dans le cloud et échoue (bug du 27/11 : publications du soir non faites). Depuis le 27/11 au soir, les 3 tâches (passe quotidienne, publications du soir, récap hebdo) sont liées au HP.
+- Si une exécution se retrouve sans les outils du HP : ne pas demander à Guillaume de manipuler ; le signaler en une ligne et laisser les articles en attente pour le passage suivant.
+- Sélection des articles à publier : comparer la DATE de « publier_le » (format « AAAA-MM-JJ HHhMM »), pas la chaîne entière.
+
 ## Passe quotidienne 27/11 (1 action faite + 4 suppressions proposées ; veille 5)
 - Vente : **213 Avirex A-2 80,30 €** (offre acceptée) — déjà expédié. **À retirer de Vestiaire (74154550)**, comme 203 (74171192).
 - 214 Landers et 215 Eden Park : expédiés.
