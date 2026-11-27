@@ -1,6 +1,17 @@
-# État CNCRT DROP — mis à jour le 26/11/2026 (passe quotidienne)
+# État CNCRT DROP — mis à jour le 27/11/2026 (passe quotidienne)
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
+
+## Passe quotidienne 27/11 (1 action faite + 4 suppressions proposées ; veille 5)
+- Vente : **213 Avirex A-2 80,30 €** (offre acceptée) — déjà expédié. **À retirer de Vestiaire (74154550)**, comme 203 (74171192).
+- 214 Landers et 215 Eden Park : expédiés.
+- Baisse : 199 Parka Petrol Industries 19,24 → 17,24 (6 favoris, 11 j). Ne pas re-baisser avant 4/12.
+- Aucune autre baisse éligible (082 083 140 145 rebaissables dès 28/11 ; 002 049 075 097 dès 29/11 ; 096 144 dès 30/11 ; 182 dès 1/12 ; 027 118 147 186 au plancher ; 169 prix Guillaume).
+- Suppressions PROPOSÉES (pas faites, en attente du ok de Guillaume) : 027 T-shirt Adidas (13 vues, 89 j, items/9832920040) · 147 Russell Athletic (14 vues, 79 j, items/9944253202) · 081 Hoodie Wrüng (14 vues, 40 j, items/10428503133) · 071 Veste Cleptomanicx (16 vues, 40 j, items/10423204742). Photos sauvegardées dans 027r 147r 081r 071r (2e photo en 1re). Après le ok : supprimer via API puis ajouter à a_publier.json (soirs à partir du 29/11). Candidat suivant : 088.
+- **Republications du 26/11 (196 106 037 047) NON visibles sur le profil** → la publication du soir du 26/11 n'a apparemment pas eu lieu ; à reprogrammer (elles restent dans a_publier.json).
+- 173/174 toujours marqués vendus par l'API sans commande : alerte maintenue.
+- Prix Vinted = Excel partout (083 à 15,24 = prix Guillaume).
+Excel : Inventaire_v20261127 (vues/favoris rafraîchis, vente 213, Journal) commité sur le HP.
 
 ## Passe quotidienne 26/11 (5 actions ; veille 4)
 - Ventes : **214 Landers 19,24 €** et **215 Eden Park 7,24 €** (bordereaux envoyés → colis à envoyer). 203 expédié.
@@ -59,7 +70,7 @@ Excel à jour : Inventaire_v20261125 (vues/favoris rafraîchis).
 Après publication : `python3 mark_online.py src dst ref url [repub]` si la ligne existe dans l'Excel ; sinon créer la ligne (copier le style de la dernière ligne, formules Marge et Jours en ligne) + ligne Journal.
 
 ## Colis
-À envoyer : 214 Sweat Landers (19,24 €) et 215 Polo Eden Park (7,24 €) — bordereaux envoyés (vu 26/11). 203 expédié le 25-26/11. **203 toujours à retirer de Vestiaire (74171192).**
+Rien à envoyer (27/11 : 213, 214, 215 expédiés). **Retirer de Vestiaire : 203 (74171192) et 213 Avirex (74154550).**
 
 ## Vestiaire Collective
 Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
