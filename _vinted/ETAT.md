@@ -12,6 +12,8 @@
 - Si une exécution se retrouve sans les outils du HP : ne pas demander à Guillaume de manipuler ; le signaler en une ligne et laisser les articles en attente pour le passage suivant.
 - Sélection des articles à publier : comparer la DATE de « publier_le » (format « AAAA-MM-JJ HHhMM »), pas la chaîne entière.
 
+- RANGEMENT SUR LE HP (oublié par les tâches jusqu'au 28/11) : après chaque publication, écrire avec device_commit_files `C:\Users\guillaume\Documents\CNCRT_DROP\En ligne\<réf>_<slug titre 45 car>\` annonce.txt (réf, titre, marque, catégorie, taille, état, prix, lien) + photos.zip (photos GitHub) et mettre la colonne T de l'Excel à ce chemin ; après chaque vente, même chose dans `Vendus\<réf>_<slug>\`. Le 28/11 : dossiers 202-217 créés (203 206 213 214 215 dans Vendus) ; colonne T de l'Excel encore à corriger pour ces réfs. Restent à déplacer/supprimer (impossible sans shell sur le HP) : 066 070 158 179 (vendus, encore dans En ligne) et les doublons 007 020 022 193 195.
+
 ## Publiées le 27/11 (tâche du soir, Excel + Journal à jour)
 - 080 Coupe-vent Nike 19,24 — items/10993890485
 - 109 Polo Adidas 10,24 — items/10994035949
