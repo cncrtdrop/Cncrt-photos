@@ -139,3 +139,9 @@ Rappel : dès qu'un article se vend sur une plateforme, retirer l'annonce de l'a
 - Juste après publication, Vinted peut bloquer « Modifier/Supprimer » (vérification automatique, `can_edit=false` dans l'API) : ça peut durer de quelques minutes à quelques jours, ne pas insister.
 - Excel : stager le fichier du HP, éditer avec openpyxl, enregistrer sous un NOUVEAU nom dans /mnt/user-data/outputs/, commit avec expectedMtimeMs du staging.
 - Économiser la limite : pas de captures d'écran inutiles, JS + find refs, un message final court à Guillaume.
+
+## Récupérer les photos d'une annonce Vinted (marche sans terminal sur le HP, testé le 28/11 sur 139)
+1. Sur la page de l'annonce, lister les `img` dont l'URL contient `/f800/` (garder l'URL signée telle quelle, f1600 refusé).
+2. `navigate` vers la 1re URL images1.vinted.net (même origine → fetch autorisé), puis en JS : fetch de chaque URL, conversion JPEG via OffscreenCanvas, zip « stored » fait main, téléchargement par lien `a.download`.
+3. Le fichier arrive dans ~/Downloads du HP en `.tmp` (taille complète, aucune validation nécessaire) → `device_stage_files`, unzip, ranger dans `<réf>r/` (2e photo en 1re), push.
+Photos en 600×800 (qualité de l'annonce).
