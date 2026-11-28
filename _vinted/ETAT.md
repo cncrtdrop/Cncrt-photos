@@ -1,4 +1,4 @@
-# État CNCRT DROP — mis à jour le 27/11/2026 (passe quotidienne)
+# État CNCRT DROP — mis à jour le 28/11/2026 (passe quotidienne)
 
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
@@ -15,6 +15,14 @@
 - 131 Aidek Mabrouk 9,24 — items/10994179028
 - 095 Kaotiko 19,24 — items/10994311607
 - 217 Hoodie Adidas Blue Version 39,24 — items/10994444514
+
+## Passe quotidienne 28/11 (2 baisses + 2 suppressions proposées ; veille 1+4)
+- Ventes Vinted : aucune nouvelle (213, 214, 215, 203 toujours « expédiée »). Vestiaire : aucune nouvelle vente (10 en vente, 2 vendus, inchangé ; lu via le navigateur intégré, qui marche pour le profil public). Aucune suppression croisée.
+- Baisses : 082 Hoodie Nike Half-Zip 10,24 → 9,24 (16 fav, plancher achat 7+2) · 140 T-shirt Stussy x Nike 23,24 → 20,24 (10 fav). Ne pas re-baisser avant 5/12.
+- Non baissés : 145 au plancher (17,24 = achat 15+2) ; 083 prix Guillaume 15,24 ; 002 049 075 097 rebaissables dès 29/11 ; 096 144 dès 30/11 ; 182 dès 1/12 ; 199 dès 4/12 ; 0 favori >14 j : aucun éligible (190 baissé 26/11 ; 031/032 à 14 j → éligibles dès 29/11).
+- Suppressions PROPOSÉES à Guillaume (en attente de son ok, rien supprimé) : 088 Hoodie Reebok x La Haine (18 vues, 43 j, items/10404690835) · 144 Hoodie WearAloud (29 vues, 80 j, 5 fav, items/9944789973).
+- Prix Vinted = Excel partout. 217 PAS encore déposé sur Vestiaire (non fait aujourd'hui).
+Excel : Inventaire_v20261128 (vues/favoris rafraîchis, 2 baisses, Journal) commité sur le HP.
 
 ## Passe quotidienne 27/11 (1 action faite + 4 suppressions proposées ; veille 5)
 - Vente : **213 Avirex A-2 80,30 €** (offre acceptée) — déjà expédié. Retiré de Vestiaire (vérifié), comme 203.
