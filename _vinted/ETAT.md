@@ -21,7 +21,8 @@
 - Baisses : 082 Hoodie Nike Half-Zip 10,24 → 9,24 (16 fav, plancher achat 7+2) · 140 T-shirt Stussy x Nike 23,24 → 20,24 (10 fav). Ne pas re-baisser avant 5/12.
 - Non baissés : 145 au plancher (17,24 = achat 15+2) ; 083 prix Guillaume 15,24 ; 002 049 075 097 rebaissables dès 29/11 ; 096 144 dès 30/11 ; 182 dès 1/12 ; 199 dès 4/12 ; 0 favori >14 j : aucun éligible (190 baissé 26/11 ; 031/032 à 14 j → éligibles dès 29/11).
 - Suppressions PROPOSÉES à Guillaume (en attente de son ok, rien supprimé) : 088 Hoodie Reebok x La Haine (18 vues, 43 j, items/10404690835) · 144 Hoodie WearAloud (29 vues, 80 j, 5 fav, items/9944789973).
-- Prix Vinted = Excel partout. 217 PAS encore déposé sur Vestiaire (non fait aujourd'hui).
+- Prix Vinted = Excel partout. 217 PAS encore déposé sur Vestiaire.
+- Relance manuelle 28/11 (« passe rattrapée ») : la passe avait DÉJÀ tourné → pas de nouvelles actions ; revérifié : aucune nouvelle vente Vinted ni Vestiaire. Dépôt 217 sur Vestiaire demandé dans la relance mais non fait : attend un « go » explicite de Guillaume (publication) — prix visé ≥ 49 €.
 Excel : Inventaire_v20261128 (vues/favoris rafraîchis, 2 baisses, Journal) commité sur le HP.
 
 ## Passe quotidienne 27/11 (1 action faite + 4 suppressions proposées ; veille 5)
