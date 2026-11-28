@@ -3,6 +3,9 @@
 À lire au début de chaque nouvelle conversation (avec la compétence vinted-cncrt-drop).
 
 ## RÈGLES PERMANENTES (à respecter dans toute conversation et toute tâche)
+- **Suppressions automatiques (Guillaume 28/11)** : les suppressions de la règle « <30 vues après 21 j » se font SANS demander à Guillaume (sauvegarde photos/infos + a_publier.json, puis vrai clic Supprimer + 404). Ça remplace la consigne « attendre son ok » de la compétence.
+- **140 T-shirt Stussy x Nike : NE PLUS JAMAIS BAISSER** (Guillaume 28/11 ; reste à 20,24).
+- **Vestiaire automatique (Guillaume 28/11)** : tout article en ligne sur Vinted dont la marque est acceptée par Vestiaire (la marque exacte apparaît dans le champ Marque du dépôt) est déposé AUTOMATIQUEMENT en parallèle sur Vestiaire, sans demander. Prix : entier, au moins Vinted + 10 €, ajusté aux vendus comparables (« Articles similaires vendus » de l'étape Prix). Via l'extension Claude in Chrome du HP + _vinted/vestiaire_helpers.js. Toujours vérifier le profil Vestiaire avant (pas de doublon). Noter le product_id en colonne U de l'Excel + Journal + section Vestiaire ci-dessous. Max 3 dépôts par passe, du plus cher au moins cher.
 - Le HP (LAPTOP-NGFOE96P) reste allumé, branché, capot fermé : le réglage « capot fermé = ne rien faire » est DÉJÀ FAIT et marche. Ne jamais le redemander à Guillaume.
 - Guillaume n'intervient jamais : il ne lance pas de tâche, ne clique pas, ne colle pas de message. Il reçoit seulement des notifications/rapports.
 - Toute tâche planifiée Vinted doit être liée au HP (« Exiger cet ordinateur »). Une tâche créée sans ça tourne dans le cloud et échoue (bug du 27/11 : publications du soir non faites). Depuis le 27/11 au soir, les 3 tâches (passe quotidienne, publications du soir, récap hebdo) sont liées au HP.
@@ -20,8 +23,8 @@
 - Ventes Vinted : aucune nouvelle (213, 214, 215, 203 toujours « expédiée »). Vestiaire : aucune nouvelle vente (10 en vente, 2 vendus, inchangé ; lu via le navigateur intégré, qui marche pour le profil public). Aucune suppression croisée.
 - Baisses : 082 Hoodie Nike Half-Zip 10,24 → 9,24 (16 fav, plancher achat 7+2) · 140 T-shirt Stussy x Nike 23,24 → 20,24 (10 fav). Ne pas re-baisser avant 5/12.
 - Non baissés : 145 au plancher (17,24 = achat 15+2) ; 083 prix Guillaume 15,24 ; 002 049 075 097 rebaissables dès 29/11 ; 096 144 dès 30/11 ; 182 dès 1/12 ; 199 dès 4/12 ; 0 favori >14 j : aucun éligible (190 baissé 26/11 ; 031/032 à 14 j → éligibles dès 29/11).
-- Suppressions PROPOSÉES à Guillaume (en attente de son ok, rien supprimé) : 088 Hoodie Reebok x La Haine (18 vues, 43 j, items/10404690835) · 144 Hoodie WearAloud (29 vues, 80 j, 5 fav, items/9944789973).
-- Prix Vinted = Excel partout. 217 PAS encore déposé sur Vestiaire.
+- Suppressions faites le 28/11 après l'ok de Guillaume (vrai clic, 404 vérifié) : 088 Hoodie Reebok x La Haine (items/10404690835) · 144 Hoodie WearAloud (items/9944789973). Photos dans 088r/144r (2e photo en 1re), ajoutées à a_publier.json le 30/11 (19h37, 20h12). 088 : taille vide dans l'ancien formulaire → bien mettre XS.
+- Prix Vinted = Excel partout. 217 déposé sur Vestiaire le 28/11 (voir section Vestiaire).
 - Relance manuelle 28/11 (« passe rattrapée ») : la passe avait DÉJÀ tourné → pas de nouvelles actions ; revérifié : aucune nouvelle vente Vinted ni Vestiaire. Dépôt 217 sur Vestiaire demandé dans la relance mais non fait : attend un « go » explicite de Guillaume (publication) — prix visé ≥ 49 €.
 Excel : Inventaire_v20261128 (vues/favoris rafraîchis, 2 baisses, Journal) commité sur le HP.
 
@@ -98,7 +101,8 @@ Rien à envoyer (27/11 : 213, 214, 215 expédiés). 203 et 213 retirés de Vesti
 ## Vestiaire Collective
 Connecté dans le **Chrome du HP via l'extension Claude in Chrome** (connexion Google). Le navigateur intégré de l'app Claude NE MARCHE PAS pour Vestiaire. Les captures d'écran Chrome peuvent planter (HP capot fermé) : tout faire en JS/find. Procédure + fonctions : `_vinted/vestiaire_helpers.js`. Mode femme : catégories différentes (21 Vestes, 611 Blousons, 20 Manteaux > Doudoune, 56 Pulls & Gilets) et norme de taille par défaut FR → choisir « International » (valeur 5). Recherche prix : API POST https://search.vestiairecollective.com/v1/product/search (filtre `sold:["1"]` = vendus), à lancer depuis une page de recherche Vestiaire.
 Règle (27/11) : tout nouvel article ≥ ~35 € est étudié pour Vestiaire au moment de sa préparation (prix vendus comparables, rentable après 15 € de frais) et proposé à Guillaume. **Prix Vestiaire (règle Guillaume 27/11) : jamais le même prix que Vinted → au moins +10 € par rapport au prix Vinted, ou plus selon les prix vendus comparables sur Vestiaire.**
-**À FAIRE 28/11 (passe quotidienne) : déposer 217 Hoodie Adidas Blue Version sur Vestiaire** (Vinted 39,24 → Vestiaire ≥ 49 €, ajuster aux vendus comparables ; Chrome du HP ne répondait pas le 27/11 au soir).
+### Déposé le 28/11
+- 217 Hoodie Adidas Blue Version noir L, Sweat, Très bon état, coton, 50 € (net 35) — product_id 74350082. Reco Vestiaire 29 €, sweats Adidas vendus 23-33 € (génériques) → 50 = minimum de la règle Vinted + 10.
 Règle Guillaume : se caler sur les prix Vestiaire en comparant ce qui est comparable (état, matière, modèle). Dès qu'une plateforme vend, retirer l'annonce de l'autre.
 
 ### Déjà en vente par Guillaume AVANT le 23/11 (profil https://fr.vestiairecollective.com/profile/36155053/) — TOUJOURS vérifier ce profil avant de déposer
